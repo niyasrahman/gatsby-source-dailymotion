@@ -1,11 +1,9 @@
 const fetch = require("node-fetch")
-
 exports.sourceNodes = (
   { actions, createNodeId, createContentDigest },
   configOptions
 ) => {
   const { createNode } = actions
-
   const processPhoto = video => {
     const nodeId = createNodeId(`dailymotion-video${video.id}`)
     const nodeContent = JSON.stringify(video)
@@ -22,7 +20,6 @@ exports.sourceNodes = (
 
     return nodeData
   }
-
   const URL = `https://api.dailymotion.com/user/${
     configOptions.user
   }/videos?fields=id,embed_url,embed_html,title,url,created_time,thumbnail_large_url,description&limit=${
