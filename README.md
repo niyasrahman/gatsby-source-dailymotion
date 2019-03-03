@@ -42,18 +42,20 @@ Get all the videos:
 
 ```graphql
 {
-  allYoutubeVideo {
-    edges {
-      node {
-        id
-        title
-        description
-        videoId
-        publishedAt
-        privacyStatus
+  allDailymotionVideo{
+      edges {
+        node {
+          id
+          embed_url
+          embed_html
+          title
+          url
+          created_time
+          thumbnail_large_url
+          description
+        }
       }
-    }
-  }
+  	}
 }
 
 ```
