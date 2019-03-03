@@ -1,14 +1,21 @@
 {
   "name": "gatsby-source-dailymotion",
   "version": "1.0.0",
-  "description": "",
+  "repository": "https://github.com/niyasrahman/gatsby-source-dailymotion",
+  "description": "Gatsby source to fetch data from dailymotion API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "gatsby",
+    "gatsbyjs",
+    "gatsby-plugin",
+    "gatsby-source",
+    "dailymotion"
+  ],
+  "author": "Niyas Rahman",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.3.0",
     "query-string": "^6.2.0"
