@@ -7,6 +7,7 @@ Source plugin for pulling data into Gatsby from Dailymotion user videos endpoint
 ## Install
 
 `npm install --save gatsby-source-dailymotion`
+or
 `yarn add gatsby-source-dailymotion`
 
 ## How to use
